@@ -124,7 +124,7 @@ if app_mode=='Face Recognization':
     out = translater.translate(detect, dest=detect_lang)
     st.header(out.text)
 
-  elif detect:
+  elif detect_select:
         st.error("!! Please enter input in any language")
 
   st.markdown('---')
